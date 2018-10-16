@@ -701,7 +701,7 @@ int main(int argc, const char* argv[])
     if(2 < argc){
         SetPort(atoi(argv[2]));
     }
-    EnableSimulator(true);
+    EnableSimulator(false);
     for (;;) {
         ShowMotioningText1("HelloWorld");
         wave();
